@@ -89,6 +89,8 @@ section {
   height: 3rem;
   color: #ffffff;
   border: 0;
+  text-align: center;
+  font-size: 1rem;
 }
 
 .popular {
@@ -168,8 +170,6 @@ section {
   width: 60%;
 }
 
-
-
 .row1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -192,7 +192,6 @@ section {
   gap: 2rem;
 }
 
-
 .mal {
   background: linear-gradient(
       0deg,
@@ -200,7 +199,6 @@ section {
       rgba(19, 19, 24, 0.2) 100%
     ),
     url("Images/Rectangle\ 5.png"), lightgray 50%;
-  
 }
 
 .ind {
@@ -244,7 +242,7 @@ section {
     ),
     url("Images/Rectangle\ 11.png"), lightgray 50%;
 }
-.banbd{
+.banbd {
   background: linear-gradient(
       0deg,
       rgba(19, 19, 24, 0.2) 0%,
@@ -265,6 +263,59 @@ section {
   background-size: cover, cover, cover;
   background-position: center, center, center;
 }
+
+.why-title {
+  color: #131318;
+  text-align: center;
+  font-size: 2.75rem;
+  font-weight: 800;
+}
+
+.why-des {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 162.5%;
+  width: 51%;
+  margin: 1.5rem auto 3rem auto;
+  text-align: center;
+}
+
+.one {
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 50%;
+}
+
+.two {
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 50%;
+}
+
+.three {
+  margin: 1.75rem auto;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 50%;
+}
+
+.why-row1 {
+  display: flex;
+  gap: 1.5rem;
+  margin: 0 auto;
+}
+
+.why-card-des {
+  width: 100%;
+}
+
 /* Responsive Style */
 
 @media screen and (max-width: 600px) {
@@ -321,14 +372,42 @@ section {
   .popular-column button {
     margin: 0;
   }
-  .row1, .row2, .row3{
-    margin: 1rem;
+  .why-card-container {
+    width: 100%;
+  }
+
+  .why-container {
+    width: 100%;
+  }
+
+  .row1,
+  .row2,
+  .row3 {
+    margin: 1rem auto;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;
     height: auto;
+  }
+  .popular-img {
+    height: 200px;
+  }
+
+  .why-row1 {
+    flex-direction: column;
+  }
+
+  .why-des{
+    padding: 0 1rem;
+    width: calc(100% - 2rem);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
     
   }
-  .popular-img{
-    height: 200px;
+  .one,
+  .two,
+  .three {
+    padding: 1rem;
+    width: calc(100% - 2rem);
   }
 }
