@@ -41,7 +41,7 @@ nav ul {
 }
 
 nav li {
-  color:  #424247;
+  color: #424247;
   font-size: 1.275;
   font-weight: 400;
 }
@@ -54,8 +54,8 @@ header .title-text {
   font-size: 2.25rem;
   font-weight: 800;
 }
-header .title-img{
-    width: 80%;
+header .title-img {
+  width: 80%;
 }
 
 .hero {
@@ -363,6 +363,70 @@ header .title-img{
   width: 100%;
 }
 
+/* ==========================Bonus Task=========================================== */
+/* ==========================Bonus Task=========================================== */
+/* ==========================Bonus Task=========================================== */
+.perfect {
+  display: flex;
+}
+.perfect-column {
+  width: 50%;
+  position: relative;
+}
+.perfect-title {
+  color: #131318;
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 150%;
+  width: 80%;
+}
+
+.perfect-des {
+  margin: 1.5rem 0;
+  color: #5a5a5d;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 162.5%;
+}
+
+.perfect ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.perfect li {
+  color: #131318;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 162.5%;
+  margin-left: 1.5rem;
+}
+
+video {
+  width: 100%;
+  border-radius: 1rem;
+  /* visibility: hidden; */
+}
+
+.perfect-cap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 150%;
+  z-index: 10;
+  font-size: 20px;
+  transform: translate(-50%, -50%);
+}
+
+/* ==========================Bonus Task=========================================== */
+/* ==========================Bonus Task=========================================== */
+/* ==========================Bonus Task=========================================== */
+/* ==========================Bonus Task=========================================== */
+
 .newsletter {
   display: flex;
   gap: 1.5rem;
@@ -504,32 +568,32 @@ footer .des {
   section {
     margin-bottom: 2rem;
   }
-  .name-container{
+  .name-container {
     gap: 1rem;
   }
-  .name-sec{
+  .name-sec {
     align-items: center;
     padding: 0px;
     margin: 1rem 0;
   }
-  header .title-text{
+  header .title-text {
     /* padding-top: 1.5rem; */
     font-size: 1.25rem;
   }
 
-  header .title-img{
+  header .title-img {
     width: 60%;
     /* border: 1px solid red; */
   }
-  nav{
+  nav {
     align-items: center;
   }
-  nav ul{
+  nav ul {
     display: none;
   }
-  .hamburger{
+  .hamburger {
     display: inline;
-    padding-bottom: .5rem;
+    padding-bottom: 0.5rem;
   }
   .hero-container {
     padding: 2rem 1.5rem;
@@ -630,7 +694,40 @@ footer .des {
     padding: 1rem;
     width: calc(100% - 2rem);
   }
+/* ==================================Bonus Task============================= */
+/* ==================================Bonus Task============================= */
+/* ==================================Bonus Task============================= */
+.perfect{
+    flex-direction: column;
+    gap:1.5rem;
+}
+.perfect-column{
+    width: 100%;
+}
 
+.perfect-title{
+    font-size: 1.25rem;
+}
+
+.perfect-des, .perfect-list li{
+    font-size: 0.8rem;
+    /* padding: 1rem 0; */
+}
+.perfect-de{
+    margin: 1rem;
+}
+
+.perfect-list{
+    gap:1rem;
+}
+
+.perfect-cap{
+    font-size: 0.8rem;
+}
+
+/* ==================================Bonus Task============================= */
+/* ==================================Bonus Task============================= */
+/* ==================================Bonus Task============================= */
   .newsletter {
     flex-direction: column;
   }
