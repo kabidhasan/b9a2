@@ -676,10 +676,11 @@ footer .des {
     padding: 2rem 1.5rem;
   }
   .hero-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .hero-des {
     width: 100%;
+    font-size: 0.8rem;
   }
   .hero-form {
     flex-direction: column;
@@ -716,12 +717,18 @@ footer .des {
     width: 100%;
   }
   .popular-column-left {
-    width: 100%;
+    width: 85%;
     height: 600px;
     margin-left: 0;
   }
   .popular-column button {
     margin: 0;
+  }
+
+  .popular-img {
+    
+    width: 100%;
+    height: auto;
   }
 
   .dest-title {
