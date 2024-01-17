@@ -110,7 +110,8 @@ header .title-img {
   /* padding-left: 1rem; */
   border: 0;
   color: rgba(19, 19, 24, 0.5);
-  text-align: center;
+  /* text-align: center; */
+  padding-left: 1rem;
   font-size: 1rem;
 }
 
@@ -121,7 +122,7 @@ header .title-img {
   background: #fff;
   /* padding-left: 1rem; */
   border: 0;
-  text-align: center;
+ padding-left: 1rem;
   font-size: 1rem;
   color: rgba(19, 19, 24, 0.5);
 }
@@ -387,12 +388,14 @@ header .title-img {
   font-size: 1rem;
   font-weight: 400;
   line-height: 162.5%;
+  width: 90%;
 }
 
 .perfect ul {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  width: 90%;
 }
 .perfect li {
   color: #131318;
@@ -420,6 +423,78 @@ video {
   z-index: 10;
   font-size: 20px;
   transform: translate(-50%, -50%);
+}
+
+.perfect .btn-primary {
+  margin-top: 2.75rem;
+  color: #fff;
+  text-align: center;
+  font-size: 1.15rem;
+  font-weight: 800;
+  width: 30%;
+}
+
+.partner-title {
+  text-align: center;
+  font-size: 2.5rem;
+  /* padding-bottom: 2rem; */
+  margin: 1rem auto 0 auto;
+}
+
+.partner-des{
+    width: 40%;
+    font-size: 1rem;
+    color:#424247;
+    margin: 1rem auto 1rem auto;
+    text-align: center;
+
+}
+.partner-container {
+  display: flex;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  /* width: 100%; */
+  /* height: 10%; */
+
+  gap: 1rem;
+}
+.partner-card {
+  /* border: 1px solid grey; */
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: ghostwhite;
+  box-shadow: 3px 3px 3px gray;
+}
+
+.partner-card:hover{
+    scale:0.9;
+    border: 1px solid grey;
+    transition-duration: 0.6s;
+
+}
+
+.partner-card-title {
+  text-align: center;
+}
+.partner img {
+  width: 70%;
+  height: 70%;
+  border-radius: 0.5rem;
+  padding: 1px;
+  /* border: 30px solid red; */
+  /* display: none; */
+  /* visibility: hidden; */
+}
+
+.partner button{
+    
+    width: 15%;
+    margin: 2rem auto 0 auto;
+    font-weight: 800;
+    display: block;
 }
 
 /* ==========================Bonus Task=========================================== */
@@ -474,6 +549,8 @@ video {
   color: #fff;
   font-size: 1.25rem;
   font-weight: 800;
+  text-align: center;
+  padding-left: 0;
 }
 
 .newsletter .right {
@@ -619,7 +696,7 @@ footer .des {
     border-radius: 0.5rem;
   }
   .hero-form input[type="text"] {
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
     border-radius: 0.5rem;
   }
@@ -648,7 +725,7 @@ footer .des {
   }
 
   .dest-title {
-    font-size: 1.25rem;
+    font-size: 1.35rem;
   }
 
   .dest-sub {
@@ -694,40 +771,76 @@ footer .des {
     padding: 1rem;
     width: calc(100% - 2rem);
   }
-/* ==================================Bonus Task============================= */
-/* ==================================Bonus Task============================= */
-/* ==================================Bonus Task============================= */
-.perfect{
+  /* ==================================Bonus Task============================= */
+  /* ==================================Bonus Task============================= */
+  /* ==================================Bonus Task============================= */
+  .perfect {
     flex-direction: column;
-    gap:1.5rem;
-}
-.perfect-column{
+    gap: 1.5rem;
+  }
+  .perfect-column {
     width: 100%;
-}
+  }
 
-.perfect-title{
+  .perfect-title {
     font-size: 1.25rem;
-}
-
-.perfect-des, .perfect-list li{
+  }
+  .perfect ul{
+    margin: 0 0;
+    padding: 0 0 0 1rem;
+  }
+  .perfect-des,
+  .perfect-list li {
     font-size: 0.8rem;
+    width: 100%;
+    margin: 0;
+    
     /* padding: 1rem 0; */
-}
-.perfect-de{
+  }
+  .perfect-de {
     margin: 1rem;
-}
+  }
 
-.perfect-list{
-    gap:1rem;
-}
+  .perfect-list {
+    gap: 1rem;
+  }
 
-.perfect-cap{
+  .perfect-cap {
     font-size: 0.8rem;
-}
+  }
 
-/* ==================================Bonus Task============================= */
-/* ==================================Bonus Task============================= */
-/* ==================================Bonus Task============================= */
+  .perfect .btn-primary {
+    width: 40%;
+    margin-top: 1rem;
+  }
+
+  .partner-title{
+    font-size: 1.5rem;
+  }
+  .partner-des{
+    width: 95%;
+    margin: 0.5rem auto;
+    font-size: 0.8rem;
+  }
+  .partner-container {
+    flex-direction: column;
+  }
+  .partner-card-title{
+    margin: 1rem auto;
+  }
+  .partner img{
+    margin-top: 2rem ;
+    height:(60% - 2rem);
+    /* border-radius: 1rem; */
+    /* border: 1px solid black; */
+  }
+  .partner button{
+    width: 100%;
+  }
+
+  /* ==================================Bonus Task============================= */
+  /* ==================================Bonus Task============================= */
+  /* ==================================Bonus Task============================= */
   .newsletter {
     flex-direction: column;
   }
