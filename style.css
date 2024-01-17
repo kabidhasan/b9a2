@@ -668,6 +668,7 @@ footer .des {
   }
   .hamburger {
     display: inline;
+    visibility: visible;
     padding-bottom: 0.5rem;
   }
   .hero-container {
